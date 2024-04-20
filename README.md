@@ -1,1 +1,1 @@
-# reversi
+# revers
