@@ -9,13 +9,16 @@
     <style>
         body {
             margin: 20px;
-            font-family: 'Roboto', sans-serif; /* Default font */
         }
-        h1 {
+        .roboto {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+        }
+        .oswald {
             font-family: 'Oswald', sans-serif;
             font-weight: 200;
         }
-        p {
+        .lato {
             font-family: 'Lato', sans-serif;
             font-weight: 300;
         }
@@ -25,9 +28,9 @@
     </style>
 </head>
 <body>
-    <h1>Google Fonts Example</h1>
-    <p>This paragraph uses <span class="bold">Lato</span>.</p>
-    <p>This paragraph uses <span class="bold">Roboto</span> in normal and <span class="bold">bold</span>.</p>
-    <p>This paragraph uses <span class="bold">Oswald</span> in lightweight.</p>
+    <h1 style="font-family: 'Oswald', sans-serif;">Google Fonts Example</h1>
+    <p class="lato">This paragraph uses <span class="bold">Lato</span>.</p>
+    <p class="roboto">This paragraph uses <span class="bold">Roboto</span> in normal and <span class="bold">bold</span>.</p>
+    <p class="oswald">This paragraph uses <span class="bold">Oswald</span> in lightweight.</p>
 </body>
 </html>
