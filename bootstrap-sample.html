@@ -31,6 +31,35 @@
         <div class="col">
           <p>Welcome to my Bootstrap demo! Try resizing the page to see how the layout changes.</p>
         </div>
-     
+      <!-- First row with responsive columns that don't stack -->
+      <div class="row">
+        <div class="col-md-4">
+          <p>This column stays side by side on all devices.</p>
+        </div>
+        <div class="col-md-4">
+          <p>This column also stays side by side on all devices.</p>
+        </div>
+        <div class="col-md-4">
+          <p>Even this column does not stack on smaller devices.</p>
+        </div>
+      </div>
+
+      <!-- Second row with responsive image -->
+      <div class="row">
+        <div class="col-12">
+          <img src="https://via.placeholder.com/1200x600" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+
+      <!-- Third row with columns that stack on smaller screens -->
+      <div class="row">
+        <div class="col-12 col-md-6 mt-3">
+          <button type="button" class="btn btn-primary">Click Me!</button>
+        </div>
+        <div class="col-12 col-md-6 mt-3">
+          <p>This column will stack below the button on smaller screens.</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
